@@ -20,15 +20,15 @@ module.exports = {
       {
         light: {
           ...require('daisyui/src/theming/themes')['[data-theme=light]'],
-          primary: '#666cff',
+          primary: '#00E5A8',
         },
       },
       {
         dark: {
           ...require('daisyui/src/theming/themes')['[data-theme=dark]'],
-          primary: '#666cff',
-          'base-100': '#2a334c',
-          'base-200': '#252d37',
+          primary: '#00E5A8',
+          'base-100': '#0e1117',
+          'base-200': '#111827',
         },
       },
     ],
