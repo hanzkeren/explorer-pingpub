@@ -19,6 +19,13 @@ app.use(LazyLoad, { component: true });
 // Mount vue app
 app.mount('#app');
 
+// Set default theme to dark to match landingpage
+try {
+  const el = document.documentElement;
+  el.setAttribute('data-theme', 'dark');
+  el.classList.add('dark');
+} catch {}
+
 const REFRESH_INTERVAL = import.meta.env.VITE_REFRESH_INTERVAL || 6000; // 6 seconds
 
 // fetch latest block every 6s

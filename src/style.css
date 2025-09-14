@@ -21,17 +21,20 @@ body {
 }
 
 :root {
-  --text-main: #333;
+  --text-main: #0b1220;
   --text-secondary: #4b525d;
-  --bg-active: #fbfbfc;
+  --bg-active: #eef2f7;
 }
 
 html.dark,
 html[data-theme='dark'] {
-  --text-main: #f7f7f7;
-  --text-secondary: #6f6e84;
-  --bg-active: #242b40;
+  --text-main: #e8f0fe;
+  --text-secondary: #9aa8c7;
+  --bg-active: #111a2b;
 }
+
+/* Accent focus ring to match landingpage */
+:focus-visible { outline: 2px solid #00E5A8; outline-offset: 2px; }
 
 .table th:first-child {
   position: relative;
